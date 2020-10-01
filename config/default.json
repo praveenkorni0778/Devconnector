@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://praveen:praveen@cluster0.ndnfw.gcp.mongodb.net/devconnecter?retryWrites=true&w=majority"
+}
