@@ -44,7 +44,7 @@ const EditProfile = ({
       facebook: loading || !profile.social ? '' : profile.social.facebook,
       youtube: loading || !profile.social ? '' : profile.social.youtube,
     });
-  }, [loading]);
+  }, [loading, getCurrentProfile]);
 
   const {
     company,
